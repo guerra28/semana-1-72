@@ -12,6 +12,7 @@ body {
     align-items: center;
     background-color: #bec0c2;
     flex-wrap: wrap;
+    color: #0d0d0d;
 }
 
 .info {
@@ -28,6 +29,10 @@ body {
 
 .info__logo:visited {
     color: #000;
+}
+
+.info__logo:hover {
+    color: #707273;
 }
 
 .info__parrafo {
