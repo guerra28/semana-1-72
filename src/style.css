@@ -5,8 +5,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 .miembros {
     display: flex;
     background-color: #a4302c;
@@ -22,6 +20,7 @@ body {
     font-size: medium;
     border: 1px solid black;
     width: 250px;
+}
 
 .footer {
     display: flex;
@@ -69,5 +68,4 @@ body {
 .texto {
     width: 1200px;
     text-align: center;
-
 }
