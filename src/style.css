@@ -5,6 +5,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
+
 .miembros {
     display: flex;
     background-color: #a4302c;
@@ -20,4 +22,52 @@ body {
     font-size: medium;
     border: 1px solid black;
     width: 250px;
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #bec0c2;
+    flex-wrap: wrap;
+    color: #0d0d0d;
+}
+
+.info {
+    width: 580px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.contactos {
+    width: 580px;
+    text-align: right;
+    padding-right: 20px;
+}
+
+.info__logo:visited {
+    color: #000;
+}
+
+.info__logo:hover {
+    color: #707273;
+}
+
+.info__parrafo {
+    text-align: left;
+}
+
+.lista-miembros__item {
+    list-style: none;
+}
+
+.contactos__titulo {
+    width: 600px;
+    text-align: center;
+}
+
+.texto {
+    width: 1200px;
+    text-align: center;
+
 }
