@@ -23,7 +23,7 @@ body {
 
 .menu-sup{
     height: 100px;
-    background-color: antiquewhite;
+    background-color: rgb(207, 211, 211);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -46,18 +46,18 @@ body {
     padding: 0.36em 0;
 }
 
-.container-imagen{
+.contenedor-imagen{
     
     height: 240px;
     /* margin-bottom: 20px; */
 }
 .banner-img{
     width:1200px;
-    height: 240px;
+    height: 225px;
 
 }
 
-.nav-list{
+.menu-superior{
     padding: 0.25em 0;
     list-style-type: none;
     text-align: end;
@@ -76,7 +76,7 @@ body {
     text-decoration: underline;
     font-weight: bold;
 }
-.main-menu{
+.menu-botones{
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
@@ -85,17 +85,12 @@ body {
     justify-content: space-evenly;
 }
 
-.main-menu__item{
+.menu-botones__elm{
     line-height: 3;
 }
 
-.main-menu__link{
+.menu-botones__link{
     text-decoration: none;
     font-size: 1em;
     color: #3e3e3e;
-}
-
-.main-menu__link:hover{
-    text-decoration: underline;
-    font-weight: bold;
 }
